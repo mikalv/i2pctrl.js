@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  min-width: 920px;
+  max-width: 920px;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px 0px;
+  font-size: 62.5%;
+  font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #4d4d4d;
+  background-color: #FFFFFF;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+body {
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 10%, #dddddd 50%, #dddddd);
+}
+
+body[toron] {
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 10%, #d5ffd5 50%, #d5ffd5);
+}

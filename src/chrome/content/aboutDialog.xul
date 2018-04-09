@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- Mode: HTML -*- -->
+<?xml-stylesheet href="chrome://i2pctrl/skin/aboutDialog.css" type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd" >
+%brandDTD;
+<!ENTITY % aboutDialogDTD SYSTEM "chrome://i2pctrl/locale/aboutDialog.dtd" >
+%aboutDialogDTD;
+]>
+
+<overlay id="main-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <vbox id="rightBox">
+  <vbox id="detailsBox">
+      <description class="text-blurb" id="projectDesc">
+        &project.start;
+        <label class="text-link"
+                     href="https://i2bb.net/">
+          &project.tpoLink;
+        </label>&project.end;
+      </description>
+      <description class="text-blurb" id="helpDesc">
+        &help.start;
+        <label class="text-link"
+               href="https://i2bb.net/donate/">
+          &help.donateLink;
+        </label>
+        &help.or;
+        <label class="text-link"
+               href="https://i2bb.net/getinvolved/">
+          &help.getInvolvedLink;
+        </label>&help.end;
+      </description>
+   </vbox>
+  </vbox>
+
+  <vbox id="bottomBox">
+    <hbox id="newBottom" pack="center" position="1">
+      <label class="text-link bottom-link"
+             href="https://i2bb.net/docs/">
+        &bottomLinks.questions;
+      </label>
+      <label class="text-link bottom-link"
+             href="https://i2bb.net/getinvolved/">
+        &bottomLinks.grow;
+      </label>
+      <label class="text-link bottom-link"
+             href="about:license">
+        &bottomLinks.license;
+      </label>
+    </hbox>
+    <description id="trademarkI2P" insertafter="trademark">
+      &tor.TrademarkStatement;
+    </description>
+  </vbox>
+</overlay>

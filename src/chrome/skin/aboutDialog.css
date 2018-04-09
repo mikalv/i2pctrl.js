@@ -1,0 +1,34 @@
+#leftBox {
+  background-image: url('chrome://i2pctrl/skin/default256.png');
+  background-position: right top;
+  background-size: 180px;
+}
+
+#rightBox {
+  background-image: url('chrome://i2pctrl/skin/about-wordmark.png');
+  background-position: left top;
+}
+
+#contributeDesc {
+  display: none;
+}
+
+#communityDesc {
+  display: none;
+}
+
+#trademark {
+  display: none;
+}
+
+#trademarkI2P {
+  font-size: xx-small;
+  text-align: center;
+  color: #999999;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#bottomBox > hbox:not(#newBottom) {
+  display: none;
+}

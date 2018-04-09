@@ -1,0 +1,30 @@
+# Comments
+
+content i2pctrl chrome/content/
+
+
+resource i2pctrl ./
+
+# browser branding
+override chrome://branding/locale/brand.dtd chrome://i2pctrl/locale/brand.dtd
+override chrome://branding/locale/brand.properties chrome://i2pctrl/locale/brand.properties
+overlay chrome://browser/content/aboutDialog.xul chrome://i2pctrl/content/aboutDialog.xul
+
+
+# Strings for the about:i2bupdate page
+override chrome://browser/locale/aboutI2BUpdate.dtd chrome://i2pctrl/locale/aboutI2BUpdate.dtd
+
+locale i2pctrl en chrome/locale/en/
+
+
+
+skin i2pctrl classic/1.0 chrome/skin/
+style chrome://global/content/customizeToolbar.xul chrome://i2pctrl/skin/i2pctrl.css
+
+# Firefox 4-style component registration
+
+
+component {06322def-dead-4c06-aef6-47ae8e799629} components/startup-observer.js
+contract @i2bb.net/startup-observer;1 {06322def-dead-4c06-aef6-47ae8e799629}
+
+category profile-after-change StartupObserver @i2bb.net/startup-observer;1

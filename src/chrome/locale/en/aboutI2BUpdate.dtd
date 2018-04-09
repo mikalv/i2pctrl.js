@@ -1,0 +1,6 @@
+<!ENTITY aboutI2BUpdate.title "I2P Browser Update">
+<!ENTITY aboutI2BUpdate.updated "I2P Browser has been updated.">
+<!ENTITY aboutI2BUpdate.linkPrefix "For the most up-to-date information about this release, ">
+<!ENTITY aboutI2BUpdate.linkLabel  "visit our website">
+<!ENTITY aboutI2BUpdate.linkSuffix ".">
+<!ENTITY aboutI2BUpdate.changeLogHeading "Changelog:">

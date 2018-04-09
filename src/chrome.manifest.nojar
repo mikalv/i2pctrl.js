@@ -1,0 +1,8 @@
+content i2pctrl chrome/content/
+
+
+locale i2pctrl en chrome/locale/en/
+
+
+skin i2pctrl classic/1.0 chrome/skin/
+style chrome://global/content/customizeToolbar.xul chrome://i2pctrl/skin/i2pctrl.css

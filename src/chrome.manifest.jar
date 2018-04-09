@@ -1,0 +1,7 @@
+content i2pctrl jar:chrome/i2pctrl.jar!/content/
+
+
+locale i2pctrl en jar:chrome/i2pctrl.jar!/locale/en/
+
+skin i2pctrl classic/1.0 jar:chrome/i2pctrl.jar!/skin/
+style chrome://global/content/customizeToolbar.xul chrome://i2pctrl/skin/i2pctrl.css
